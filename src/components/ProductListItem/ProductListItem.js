@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function ProductListItem({product, isSelected, onClick}) {
     return (
         <div className={`product-list-item ${isSelected ? ' selected' : ''}`}>
